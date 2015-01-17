@@ -1,7 +1,4 @@
-var mapping = {
-    'BooksComTw': /http:\/\/www.books.com.tw\/products\/.+/
-};
-
+var mapping = require('../rules/RuleMapping.js');
 module.exports = function (url) {
     for (rule in mapping) {
         if (url.match(mapping[rule])) {
