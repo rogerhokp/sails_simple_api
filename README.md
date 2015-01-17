@@ -8,9 +8,9 @@ Usage
 ----------------------
 - http://localhost:1337/Json/get?uri=http://www.books.com.tw/products/0010653153?loc=003_002&callback=gogogo
   - Request Param 
-    1. uri 
+    1. **uri**
       - Required. The uri which want to parse
-    2. callback
+    2. **callback**
       - Optional. For JSONP
 
 
