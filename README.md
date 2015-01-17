@@ -1,8 +1,6 @@
 # sails_simple_api
 
-sailsjs 0.10 required.
-
-Simple Parser for converting HTML page to JSON format
+Simple Parser for converting HTML page to JSON format. Sailsjs based
 
 Usage 
 ----------------------
