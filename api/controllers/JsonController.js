@@ -14,7 +14,7 @@ module.exports = {
 
             var rule = UriResolver(uri);
             if (rule) {
-                var extractor = new JsonExtractor(body);
+                var extractor = require('html-json')(body);
                 var result = extractor.extract(rule);
                 if (callbackName) {
                     return  res.send(callbackName + '(' + JSON.stringify(result) + ')');
